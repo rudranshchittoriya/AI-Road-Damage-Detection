@@ -1,0 +1,11 @@
+# YOLO dataset configuration for prepared RDD2022 data
+path: datasets/rdd2022
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: longitudinal_crack
+  1: transverse_crack
+  2: alligator_crack
+  3: pothole
